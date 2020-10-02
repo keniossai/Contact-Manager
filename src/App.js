@@ -4,7 +4,7 @@ import Contacts from "./components/contacts/Contacts";
 import Header from "./components/layouts/Header";
 import { Provider } from "./context";
 import AddContact from "./components/contacts/AddContact";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './pages/About'
 import NotFound from "./pages/NotFound";
 import EditContact from "./components/contacts/EditContact";
